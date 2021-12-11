@@ -1,0 +1,15 @@
+{% extends "core/base.html" %}
+{% block title %}Home {% endblock %}
+{% block background %}{% load static %}{% static 'core\img\home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Fausto Vinces</h1>
+    <span class="subheading">Estudiante</span>
+{% endblock %}
+
+{% block content %}
+    <H2>Portada</h2>
+    <p>Nuestra del Proyecto</p>
+    <p>{% lorem 3 b random %}</p>
+{% endblock %}
+
